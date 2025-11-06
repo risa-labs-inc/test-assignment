@@ -357,8 +357,7 @@ book-library-tests/
 
 ## Need Help?
 
-**Technical Issues:** support@company.com  
-**Questions:** hiring@company.com
+**Technical Issues:** deepak@risalabs.ai
 
 ---
 
