@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite" verbose="1">
+    
+    <listeners>
+        <listener class-name="com.booklibrary.utils.TestListener"/>
+    </listeners>
+    
+    <test name="Smoke Tests">
+        <classes>
+            <class name="com.booklibrary.tests.AuthenticationTests">
+                <methods>
+                    <include name="testLoginWithValidCredentials"/>
+                </methods>
+            </class>
+            <class name="com.booklibrary.tests.BooksCRUDTests">
+                <methods>
+                    <include name="testGetAllBooks"/>
+                    <include name="testGetBookById"/>
+                    <include name="testCreateBookWithValidData"/>
+                    <include name="testCompleteCRUDWorkflow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite>
+
