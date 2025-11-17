@@ -1,0 +1,46 @@
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+*.log
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test Reports
+allure-results/
+allure-report/
+test-output/
+screenshots/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+*.env
+
+# TestNG
+test-output/
+

@@ -1,0 +1,19 @@
+# Environment-specific Configuration Template
+# Copy this file to test.properties and adjust values as needed
+
+# API Base URL
+base.url=http://localhost:3000
+
+# Authentication Credentials
+auth.username=admin
+auth.password=test123
+
+# Timeouts (in milliseconds)
+timeout.default=10000
+
+# Retry Configuration
+retry.max.attempts=3
+
+# Logging
+logging.enabled=true
+
